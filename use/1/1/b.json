@@ -1,14 +1,26 @@
 [
   {
-    "language" : "english",
-    "title" : "interesting course",
+    "identifier" : "m1",
+    "name" : "The great MPI course",
+    "description" : "a description...",
+    "accountablePerson" : {
+      "familyName" : "Leader",
+      "givenName" : "Its-a"
+    },
+    "contributor" : {
+      "familyName" : "Lastname",
+      "givenName" : "Hans"
+    },
+    "inLanguage" : "english",
+    "teaches" : ["use/1/1/b", "use/1/2/b"],
+    "educationalAlignment" : {
+      "educationalFramework" : "HPC CF Competence Standard v1.0",
+      "targetUrl" : "https://www.hpc-certification.org/cs/v1.0"
+    },
+    "keywords" : "test,test2",
+    "educationalLevel" : "beginner",
     "url" : "https://xx",
-    "date" : "2020-11-03"
-  },
-  {
-    "language" : "German",
-    "title" : "Toller Kurs",
-    "url" : "https://xx",
-    "date" : "2020-11-03"
+    "datePublished" : "2020-10-03",
+    "dateCreated" : "2020-10-01"
   }
 ]
