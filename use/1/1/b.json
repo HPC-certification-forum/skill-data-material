@@ -1,17 +1,16 @@
 [
   {
+    "@type": "Book",
     "identifier" : "m1",
     "name" : "The great MPI course",
     "description" : "a description...",
-    "accountablePerson" : {
+    "creator" : [
+      {"name" : "Its-a Leader",
       "familyName" : "Leader",
-      "givenName" : "Its-a"
-    },
-    "contributor" : {
-      "familyName" : "Lastname",
-      "givenName" : "Hans"
-    },
-    "inLanguage" : "english",
+      "givenName" : "Its-a"}
+    ],
+    "contributor" : [{"name" : "Hans Lastname"}],
+    "inLanguage" : "en",
     "teaches" : ["use/1/1/b", "use/1/2/b"],
     "educationalAlignment" : {
       "educationalFramework" : "HPC CF Competence Standard v1.0",
